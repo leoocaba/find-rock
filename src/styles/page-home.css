@@ -1,0 +1,95 @@
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.centrar {
+  text-align: center;
+}
+
+#logo {
+  width: 250px;
+  margin: 30px;
+}
+
+.pepi {
+  background: purple;
+}
+
+.busqueda {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.busqueda:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+input {
+  background-color: transparent !important;
+  border: none;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btng {
+  height: 35px;
+  width: 165px !important;
+  border: 1px solid #000 !important;
+  color: rgb(58, 58, 58);
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.btng:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btng:hover {
+  color: rgb(56, 56, 56);
+  font-size: 14px;
+  font-weight: 600;
+  transition: ease-out 0.4s;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+form {
+  text-align: center;
+  width: 100%;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected,
+textarea:-internal-autofill-previewed,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-previewed,
+select:-internal-autofill-selected {
+  background-color: white !important;
+}
